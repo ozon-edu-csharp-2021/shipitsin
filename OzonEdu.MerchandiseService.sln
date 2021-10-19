@@ -13,6 +13,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{5311008B
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OzonEdu.MerchandiseService", "src\OzonEdu.MerchandiseService\OzonEdu.MerchandiseService.csproj", "{9B5027E0-2267-46E0-9763-24DCA660B35D}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "deploy", "deploy", "{5DE62DBB-1FB7-4034-8D6F-10E479259C8A}"
+ProjectSection(SolutionItems) = preProject
+	deploy\docker-compose.yml = deploy\docker-compose.yml
+EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
