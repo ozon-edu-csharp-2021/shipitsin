@@ -1,6 +1,7 @@
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Hosting;
 using OzonEdu.MerchandiseService;
+using OzonEdu.MerchandiseService.Infrastructure.Extensions;
 
 
 CreateHostBuilder(args).Build().Run();
@@ -11,4 +12,5 @@ static IHostBuilder CreateHostBuilder(string[] args) =>
             webBuilder =>
             {
                 webBuilder.UseStartup<Startup>();
-            });
+            })
+        .AddInfrastructure();
